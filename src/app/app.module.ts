@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import {AtomSpinnerModule} from 'angular-epic-spinners'
+import {AtomSpinnerModule,FlowerSpinnerModule, HollowDotsSpinnerModule, IntersectingCirclesSpinnerModule, OrbitSpinnerModule, RadarSpinnerModule, ScalingSquaresSpinnerModule, HalfCircleSpinnerModule,TrinityRingsSpinnerModule, FulfillingSquareSpinnerModule,SemipolarSpinnerModule, SelfBuildingSquareSpinnerModule , SwappingSquaresSpinnerModule, FulfillingBouncingCircleSpinnerModule,FingerprintSpinnerModule, SpringSpinnerModule,LoopingRhumbusesSpinnerModule} from 'angular-epic-spinners'
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ,AtomSpinnerModule],
+  imports:      [ BrowserModule, FormsModule ,AtomSpinnerModule, FlowerSpinnerModule, HollowDotsSpinnerModule, IntersectingCirclesSpinnerModule, OrbitSpinnerModule, RadarSpinnerModule, ScalingSquaresSpinnerModule, HalfCircleSpinnerModule, TrinityRingsSpinnerModule, FulfillingSquareSpinnerModule,SemipolarSpinnerModule, SelfBuildingSquareSpinnerModule, SwappingSquaresSpinnerModule, FulfillingBouncingCircleSpinnerModule ,FingerprintSpinnerModule, SpringSpinnerModule, LoopingRhumbusesSpinnerModule],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
